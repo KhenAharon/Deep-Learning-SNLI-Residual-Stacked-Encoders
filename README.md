@@ -1,5 +1,5 @@
 This is my code revision for residual stacked encoders based on the original code by the authors: https://arxiv.org/pdf/1708.02312.pdf.<br>
-The original code by the authors cannot currently run due to missing files and runtime errors.
+The original code by the authors cannot currently run due to missing files and other errors.
 
 ## Important notes to be aware of:<br>
 A. You need an NVIDIA gpu with more than 2GB of ram and cuda available to run the original code by the authors after handling missing files and runtime errors.<br>
