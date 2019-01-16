@@ -6,10 +6,10 @@ A. You need an NVIDIA gpu with more than 2GB of ram and cuda available to run th
 B. You can use my code to run on the CPU, but you still need a super hardware computer with at least 32GB of general RAM.<br>
 C. Using residual connection instead of shorcut connection may reduce the hardware requirment, but I didn't try it.
 
-## Create the "data" directory. 
+## Create the "data" directory.
 create "data" directory in the root directory.
 Add to the data directory the following files:
-
+```
 1. "saved_embd.pt" from my drive:
 https://drive.google.com/open?id=1vDJfjEUGnK-S3gZ5sv6Q_PDeJ0P3tR6q
 
@@ -25,7 +25,7 @@ https://nlp.stanford.edu/projects/snli/snli_1.0.zip
 
 4. do the same for multinli_0.9 from here:
 *add link from google.
-
+```
 ## make up your environment:
 ```
 sudo apt-get update
