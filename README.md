@@ -25,7 +25,7 @@ https://nlp.stanford.edu/projects/snli/snli_1.0.zip
 
 4. do the same for multinli_0.9 from here:
 https://drive.google.com/open?id=1oyN5BCbi6Fl749uoPF2CW9grlRcekD-B
-or you can find it on google.
+or you can find it in google.
 ```
 ## make up your environment:
 ```
