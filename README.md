@@ -1,4 +1,4 @@
-This is my code revision for residual stacked encoders based on the original code by the researchers: https://arxiv.org/pdf/1708.02312.pdf.<br>
+This is my code revision for residual stacked encoders based on the original code by the authors: https://arxiv.org/pdf/1708.02312.pdf.<br>
 The original code by the authors cannot currently run due to missing files and other errors.
 
 ## Important notes to be aware of:<br>
