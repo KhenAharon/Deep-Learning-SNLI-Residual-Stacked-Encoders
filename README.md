@@ -1,7 +1,7 @@
 This is a reimplemention code for residual stacked encoders based on the original code by the authors (https://arxiv.org/pdf/1708.02312.pdf).<br>
 The original code by the authors cannot currently run due to missing files and runtime errors.
 
-# Important notes to be aware of:<br>
+## Important notes to be aware of:<br>
 A. You need an NVIDIA gpu with more than 2GB of ram and cuda available to run the original code by the authors after handling missing files and runtime errors.<br>
 B. You can use my code to run on the CPU, but you still need a super hardware computer with at least 32GB of general RAM.<br>
 C. Using residual connection instead of shorcut connection may reduce the hardware requirment, but I didn't try it.
