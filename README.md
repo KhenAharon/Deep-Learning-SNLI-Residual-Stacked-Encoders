@@ -1,13 +1,12 @@
 This is a reimplemention code for residual stacked encoders based on the original code by the authors (https://arxiv.org/pdf/1708.02312.pdf).
 The original code by the authors cannot currently run due to missing files and runtime errors.
 
-Important notes to be aware of:<br>
+# Important notes to be aware of:<br>
 A. You need an NVIDIA gpu with more than 2GB of ram and cuda available to run the original code by the authors after handling missing files and runtime errors.<br>
 B. You can use my code to run on the CPU, but you still need a super hardware computer with at least 32GB of general RAM.<br>
 C. Using residual connection instead of shorcut connection may reduce the hardware requirment, but I didn't try it.
 
-
-#Create the "data" directory. 
+## Create the "data" directory. 
 create "data" directory in the root directory.
 Add to the data directory the following files:
 
@@ -27,14 +26,14 @@ https://nlp.stanford.edu/projects/snli/snli_1.0.zip
 4. do the same for multinli_0.9 from here:
 *add link from google.
 
-make up your environment:
+## make up your environment:
 ```
 sudo apt-get update
 sudo apt-get install python-dev
 sudo apt-get install python3-dev
 ```
 
-install the dependencies:
+## install the dependencies:
 ```
 torch
 fire
@@ -43,13 +42,13 @@ numpy
 torchtext (version 0.1.1)
 ```
 
-install spacy by pip:
+## install spacy by pip:
 ```
 pip install -U spacy
 python -m spacy download en
 ```
 
-The files hierarchy should look like:
+## The files hierarchy should look like:
 ```
 .
 ├── config.py
@@ -82,15 +81,14 @@ The files hierarchy should look like:
     └── save_tool.py
 ```
 
-Start training by run the script in the root directory.
+## Start training by run the script in the root directory.
 ```
 source setup.sh
 python model/res_encoder.py train_snli
 ```
-
 then the model will be saved in the saved_model directory.
 
-Now, you can evaluate the model on dev set again by running the script below.
+## Now, you can evaluate the model on dev set again by running the script below.
 ```
 python model/res_encoder.py eval (PATH_OF_YOUR_MODEL) dev # for evaluation on dev set
 python model/res_encoder.py eval (PATH_OF_YOUR_MODEL) test # for evaluation on test set
